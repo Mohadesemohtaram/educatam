@@ -1,0 +1,19 @@
+.menu-item{
+    color: #827A7A !important;
+}
+.menu-item:hover{
+    background: linear-gradient(30deg,#1e0044, #6620c298 60% );
+    -webkit-background-clip: text ;
+    background-clip: text;
+    color: transparent !important;
+}
+.btn-section{
+    background: #6720C2;
+}
+.text-section{
+     max-width: 500px; 
+     text-align: center;
+}
+.bg-button{
+    background: white;
+}
