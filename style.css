@@ -50,3 +50,18 @@ h6 {
 .bg-icon-4 {
     background-color: #ED4883;
 }
+.text-image{
+    max-width: 550px;
+}
+.dash-1{
+    border-right: dashed;
+}
+.dash-2{
+    border-bottom: dashed;
+}
+.dash-3{
+    border-top: dashed;
+}
+.dash-4{
+    border-left: dashed;
+}
