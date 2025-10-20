@@ -50,18 +50,52 @@ h6 {
 .bg-icon-4 {
     background-color: #ED4883;
 }
-.text-image{
+
+.text-image {
     max-width: 550px;
 }
-.dash-1{
-    border-right: dashed;
+
+.dash-1 {
+    border-right: 2px dashed #ccc;
+    padding-right: 20px;
 }
-.dash-2{
-    border-bottom: dashed;
+
+.dash-2 {
+    border-bottom: 2px dashed #ccc;
+    padding-left: 20px;
 }
-.dash-3{
-    border-top: dashed;
+
+.dash-3 {
+    border-top: 2px dashed #ccc;
+    padding-right: 48px;
+    margin-top: -1.5px;
 }
-.dash-4{
-    border-left: dashed;
+
+.dash-4 {
+    border-left: 2px dashed #ccc;
+    margin-left: -2px;
+    padding-left: 20px;
+}
+
+@media (max-width:576px) {
+    .dash-1 {
+        border-right: 2px dashed #ccc;
+        padding-right: 20px;
+    }
+
+    .dash-2 {
+        border-bottom: 2px dashed #ccc;
+        padding-left: 20px;
+    }
+
+    .dash-3 {
+        border-top: 2px dashed #ccc;
+        padding-right: 28px;
+        margin-top: -1.5px;
+    }
+
+    .dash-4 {
+        border-left: 2px dashed #ccc;
+        padding-left: 20px;
+    }
 }
