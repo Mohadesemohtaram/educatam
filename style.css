@@ -76,7 +76,19 @@ h6 {
     margin-left: -2px;
     padding-left: 20px;
 }
+.Subscribe-newsletters{
+    background-image: url("./assets/images/Rectangle.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+height:650px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
 
+
+/* media anywhere section */
 @media (max-width:576px) {
     .dash-1 {
         border-right: 2px dashed #ccc;
@@ -98,4 +110,7 @@ h6 {
         border-left: 2px dashed #ccc;
         padding-left: 20px;
     }
+}
+.bg-input{
+    background: white;
 }
